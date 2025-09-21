@@ -1,0 +1,106 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #111111;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navigation */
+.navbar {
+  background: #f9f9f9;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #0073e6;
+}
+
+/* Container */
+.container {
+  max-width: 700px;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+/* Profile Picture */
+.profile-pic {
+  width: 250px;              /* fixed circle size */
+  height: 250px;
+  border-radius: 50%;
+  border: 4px solid black;
+  overflow: hidden;          /* hide the extra image */
+  margin: 0 auto 1.5rem;     /* center + spacing */
+  position: relative;
+}
+
+.profile-pic img {
+  width: 350px;              /* bigger than container = zoom in */
+  height: auto;
+  position: relative;
+  top: -100px;                /* move image up */
+  left: -55px;                /* move image left */
+}
+
+
+/* Intro */
+.intro h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+/* Footer */
+footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-top: 1px solid #e0e0e0;
+}
+
+footer p {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.social-links a {
+  margin: 0 0.5rem;
+  color: #111;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #0073e6;
+}
