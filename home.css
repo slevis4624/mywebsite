@@ -1,0 +1,32 @@
+/* styles/home.css */
+
+/* Profile Picture */
+.profile-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 4px solid black;
+  overflow: hidden;
+  margin: 0 auto 1.5rem;
+  position: relative;
+}
+
+.profile-pic img {
+  width: 350px;
+  height: auto;
+  position: relative;
+  top: -100px;
+  left: -55px;
+}
+
+/* Intro */
+.intro h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  color: #444;
+  text-align: left;
+}
